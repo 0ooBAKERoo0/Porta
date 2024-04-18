@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>ISC Alexis Ramírez García</title>
+</head>
+
+<body>
+
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/AR/</h1>
+
+                    <!--SECCION I D I O M A-->
+                    <span class="en">Spanish</span>
+                    <input type="checkbox" class="check" checked>
+                    <span class="en">English</span>
+
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">START</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACT</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/0ooBAKERoo0?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Welcome</p>
+                <h2>Am <span>Alexis Ramírez García</span>, Computer Systems Engineer</h2>
+                <p class="descripcion">Hello everyone, I am Alexis Ramírez García, a technology enthusiast and Computer Systems Engineering student with experience in Network Design and Administration, Computer Security, Database Administration, Web Development and Technical Support. Through this portfolio, I invite you to explore my projects, skills and achievements in these areas of specialization. </p>
+                <a href="#portfolio">Go to Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="../img/foto.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">About me</p>
+            <h2>Hi I am <span>Alexis Ramírez García</span> </h2>
+            <h3>Computer Systems Engineer</h3>
+            <p>From a young age, I have been fascinated by computing and the way networks, systems and applications work together to power the modern world. My goal is to contribute to technological advancement and information security through the development of innovative and efficient solutions.</p>
+            <a href="file:///C:/Users/baker/Desktop/Alexis%20Ram%C3%ADrez%20Garc%C3%ADa.pdf">Download CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MY SERVICES</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Software development</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>DSSeg</li>
+                    <li>DGames</li>
+                    <li>DSIAyAA</li>
+                </ul>
+                <p>Creation of applications and computer programs to meet specific needs of clients or companies.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Network design and administration</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Configuration, maintenance and optimization of computer networks, including local networks (LAN) and wide area networks (WAN).</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Informatic security</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Implementation of security measures to protect systems and data against cyber threats, such as viruses, malware, and cyber attacks.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Database administration</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Design, implementation and maintenance of databases to store and manage information efficiently and securely.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Web development</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Creation and maintenance of websites and web applications for companies and individual clients.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Technical support</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Provide technical assistance to users and clients to resolve problems related to computer hardware, software and networks.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>SKILLS</h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Database Administration</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Databases</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">My projects</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://github.com/0ooBAKERoo0?tab=repositories">
+                    <img src="../img/proyecto1.webp" alt="">
+                </a>
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Software development</p>
+                </div>
+            </div>            
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../img/proyecto2.jpg" alt="">>
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Network design and administration</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Network design and administration</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Informatic security</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Database administration</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Database administration</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Web design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Technical support</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../img/proyecto9.webp" alt="">
+                <div class="info">
+                    <h4>Project Description</h4>
+                    <p>Technical support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contact us now</h3>
+        <div class="contenedor-form">
+            <form id="contactForm">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Full name *" class="input-mitad" id="Name" required>
+                    <input type="Email" placeholder="Email address" class="input-mitad" id="email">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Issue..." class="input-full" id="Issue">
+                </div>
+                <div class="fila">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..." class="input-full" required></textarea>
+                </div>
+    
+                <input type="submit" value="Send message" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>All rights reserved - 2024</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/0ooBAKERoo0?tab=repositories"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
